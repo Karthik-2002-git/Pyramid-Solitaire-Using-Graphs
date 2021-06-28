@@ -1,0 +1,28 @@
+
+The rules to pyramid solitaire are very simple to understand; the main goal is to remove all cards from the pyramid
+structure of cards shown in the game.
+
+The pyramid is made of 28 unique playing cards. These cards are split up into 7 rows in which row 1 has 1 card, row 2
+has 2 cards, and so on. To remove cards from the structure, you must pick 2 accessible cards which add up to equal 13
+(Aces = 1, Jack = 11, Queen = 12, King = 13). To remove a king, it must be picked first.
+
+Although on this console game, all the cards in the pyramid are fully visible, the cards that you can access and pick
+to be compared must be ones that aren't covered by any other cards. Therefore, to start with, only 7th row cards can be
+used. To access the rows beneath, you must first remove the cards above. For example, to access the first card on the
+6th row, you must remove the 1st and 2nd card from the 7th row - the second card from the 6th must not be "covered" by
+the 2nd and 3rd cards of the 7th row and so on.
+
+The rest of the cards are situated in the stock pile at the start of the game. The stock is a pile of face up cards
+that can be used to help remove cards from the pyramid. Rotating the stock moves the top card from the stock to the top
+of the waste pile. The top of the waste can also be used to compare with the pyramid (or stock for extra score). When
+the stock is empty, the waste reverses it's order, copies to the stock and then empties itself.
+
+There are 3 outcomes of the game, either the pyramid is removed, no more cards can be successfully compared, or the
+game is prematurely ended. In all outcomes, you will be given a score based on how many cards you removed from the
+pyramid, where in the pyramid the cards were removed from, and any extra cards that you may have removed from the
+stock/waste.
+
+Good luck and have fun!
+
+
+Enter 1 to continue...
